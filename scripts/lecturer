@@ -1,0 +1,10 @@
+use university;
+create table lecturer(
+
+	Id			int		primary key auto_increment,
+	Credentials		varchar(50),
+	Caphedre		varchar(50),
+	Faculty			varchar(40)
+
+);
+

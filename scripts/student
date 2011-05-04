@@ -1,0 +1,12 @@
+use university;
+create table student(
+
+	Id			int		primary key auto_increment,
+	Credentials		varchar(50),
+	Specialization		varchar(50),
+	Groupname		varchar(20),
+	Caphedre		varchar(50),
+	Faculty			varchar(40)
+
+);
+

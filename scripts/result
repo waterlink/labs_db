@@ -1,0 +1,12 @@
+use university;
+create table result(
+
+	Id			int		primary key auto_increment,
+	Event			int,
+	Minresult		int,
+	Maxresult		int,
+	Result			int,
+	Student			int
+
+);
+

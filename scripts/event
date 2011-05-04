@@ -1,0 +1,15 @@
+use university;
+create table event(
+
+	Id			int		primary key auto_increment,
+	Type			varchar(20),
+	Begining		date,
+	Ending			date,
+	Lecturer		int,
+	Groupname		varchar(20),
+	Specialization		varchar(50),
+	Faculty			varchar(40),
+	Discipline		varchar(50)
+
+);
+
