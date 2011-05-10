@@ -3,5 +3,4 @@ ALTER TABLE `university`.`event` ADD CONSTRAINT `fk_event_lecturer` FOREIGN KEY 
     ON DELETE CASCADE
     ON UPDATE CASCADE
 , ROW_FORMAT = DYNAMIC;
-;
-NAMIC;
+
