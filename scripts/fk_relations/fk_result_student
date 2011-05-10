@@ -1,0 +1,4 @@
+ALTER TABLE `university`.`result` ADD CONSTRAINT `fk_result_student` FOREIGN KEY `fk_result_student` (`Student`)
+    REFERENCES `student` (`Id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE;

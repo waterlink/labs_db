@@ -1,0 +1,3 @@
+use university;
+insert into event(Type, Begining, Ending, Lecturer, Groupname, Specialization, Faculty, Discipline) values("Лабараторная", "29/03/2011 12:35:00", "29/03/2011 13:55:00", "1", "А1", "ИСПР", "ФизФак", "WinApi");
+insert into event(Type, Begining, Ending, Lecturer, Groupname, Specialization, Faculty, Discipline) values("Консультация по курсовой", "29/03/2011 15:00:00", "29/03/2011 16:00:00", "2", "А1", "ИСПР", "ФизФак", "Программирование");

@@ -1,0 +1,4 @@
+use university;
+insert into lecturer(Credentials, Caphedre, Faculty) values("Петренко Татьяна Григорьевна","КТ","ФизФак");
+insert into lecturer(Credentials, Caphedre, Faculty) values("Парамонов Антон Иванович","КТ","ФизФак");
+insert into lecturer(Credentials, Caphedre, Faculty) values("Неспирный Виталий Николаевич","Прикладной Математики","МатФак");
